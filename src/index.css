@@ -1,19 +1,47 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
 
 @utility container {
-    padding-inline: 10px;
-    margin-inline: auto;
-    
-    @variant sm {
-      padding-inline: 20px;
-    }
-    
-    @variant lg {
-      padding-inline: 80px;
-    }
-    
-    @variant xl {
-      padding-inline: 120px;
-    }
+  padding-inline: 10px;
+  margin-inline: auto;
+  
+  @variant sm {
+    padding-inline: 20px;
   }
+  
+  @variant lg {
+    padding-inline: 80px;
+  }
+  
+  @variant xl {
+    padding-inline: 120px;
+  }
+}
+
+
+@layer components{
+  
+}
+
+@theme{
+  --color-main: #45B28F;
+  --color-secondary: #2a9d8f;
+  --font-poppins: Poppins, sans-serif;
+}
+
+h1 {
+  @apply text-5xl font-bold md:text-7xl lg:text-[80px] xl:text-[100px];
+}
+
+h2 {
+  @apply text-3xl font-bold xl:text-5xl;
+}
+
+h3 {
+  @apply text-2xl font-bold;
+}
+
+h4 {
+  @apply text-base font-bold sm:text-lg;
+}

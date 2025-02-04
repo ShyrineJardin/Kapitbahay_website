@@ -1,17 +1,13 @@
+import Navbar from './components/navbar/Navbar';
+import Hero from './components/hero/Hero';
 
 
 function App() {
 
   return (
     <>
-    <header className='bg-red-500'>
-
-      <div className="container">
-      <h1 class="text-3xl font-bold underline text-start bg-red-100">Hello world!</h1>
-      </div>
-    </header>
-   
-      
+       <Navbar/>
+       <Hero/>
     </>
   )
 }
