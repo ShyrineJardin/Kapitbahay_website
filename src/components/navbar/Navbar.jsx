@@ -69,7 +69,7 @@ const Navbar = () => {
                     <h3>Need a hand?</h3>
                     <p>Our hotlines your lifelines. Contact our Emergency Response Team for immediate concerns:</p>
 
-                    <div className='grid grid-flow-col mt-4 gap-6'>
+                    <div className='grid grid-flow-col mt-4 gap-6 justify-between'>
                       <div>
                         <h4 className=''>Smart ERT hotline</h4>
                         <div className='flex items-center mb-5'>
