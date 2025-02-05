@@ -12,7 +12,8 @@ function App() {
 
   return (
     <>
-       <Navbar/>
+    <div className='bg-white dark:bg-gray-900'>
+    <Navbar/>
        <Hero/>
        <OverviewCounter/>
        <About/>
@@ -20,6 +21,7 @@ function App() {
        <Install/>
        <Blogs/>
        <Footer/>
+    </div>   
     </>
   )
 }
