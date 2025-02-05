@@ -35,11 +35,11 @@ h1 {
 }
 
 h2 {
-  @apply text-3xl font-semibold xl:text-5xl;
+  @apply text-3xl font-semibold lg:text-5xl;
 }
 
 h3 {
-  @apply text-2xl font-bold;
+  @apply text-2xl font-semibold;
 }
 
 h4 {

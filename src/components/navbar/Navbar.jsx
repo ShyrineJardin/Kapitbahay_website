@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <>
-    <header className='relative z-[99] bg-white border-b-[2px]'>
+    <header className='fixed right-0 left-0 top-0 z-[99] bg-white border-b-[2px] dark:bg-gray-900 dark:text-white'>
       <nav className='container flex items-center justify-between h-[70px] py-3'>
         {/*Logo section*/}
         <div>
@@ -45,10 +45,10 @@ const Navbar = () => {
                 <span><FaCaretDown className='transition-all duration-300 group-hover:rotate-180' />
                 </span></a>
               {/* dropdown */}
-              <div className='absolute -left-9 z-[99999] hidden w-[150px] bg-main p-2 rounded-md shadow-md text-white group-hover:block'>
+              <div className='absolute -left-9 z-[99999] hidden w-[150px] bg-secondary p-2 rounded-md shadow-md text-white group-hover:block'>
                 <ul className='space-y-3'>
-                  <li className=' hover:text-black'>Services</li>
                   <li className=' hover:text-black'>About Us</li>
+                  <li className=' hover:text-black'>Services</li>
                   <li className=' hover:text-black'>Privacy Policy</li>
                 </ul>
               </div>
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <span><FaCaretDown className='transition-all duration-300 group-hover:rotate-180' />
                 </span></a>
               {/*full dropdown */}
-              <div className='absolute texyt-white left-0 z-[99999] w-full hidden bg-main p-3 rounded-md shadow-md text-white group-hover:block'>
+              <div className='absolute texyt-white left-0 z-[99999] w-full hidden bg-secondary p-3 rounded-md shadow-md text-white group-hover:block'>
                 <div className='grid grid-cols-3 gap-5'>
                   <div className='overflow-hidden'>
                     <img src={Emergency} alt="" className='max-h-[300px] w-full rounded-b-3xl object-fill' />
@@ -95,7 +95,7 @@ const Navbar = () => {
 
                         <div>
                           <h4>Las Piñas</h4>
-                          <p>JoyRide Las Piñas, 3rd Floor, Parking Building, Vista Mall Las Piñas, CV Starr Avenue, Philamlife Village, Las Piñas</p>
+                          <p>3rd Floor, Parking Building, Vista Mall Las Piñas, CV Starr Avenue, Philamlife Village, Las Piñas</p>
                         </div>
                       </div>
 
