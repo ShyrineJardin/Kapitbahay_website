@@ -7,7 +7,11 @@ const Hero = () => {
     <div className='h-[650px] pt-15 md:h-[500px] bg-white dark:bg-gray-900'>
         <section className='container flex flex-col items-center justify-between'>
             <div className='grid grid-cols-1 md:grid-cols-2 dark:text-white  pt-20'>
-                <div className='flex flex-col items-center text-center gap-4 md:items-start md:text-left'>
+                <div 
+                data-aos='fade-right'
+                data-aos-duration='400'
+                data-aos-once= 'true'
+                className='flex flex-col items-center text-center gap-4 md:items-start md:text-left'>
                     <h2>Need a Helping Hand? Connect with Trusted Locals for Your Daily Tasks</h2>
 
                     <div className='bg-black dark:bg-white dark:text-black text-white p-2 rounded-lg mt-5 cursor-pointer'>
@@ -24,7 +28,11 @@ const Hero = () => {
 
                 </div>
 
-                <div className='mx-auto max-w-2xl p-4'>
+                <div
+                data-aos='fade-left'
+                data-aos-duration='400'
+                data-aos-once= 'true'
+                 className='mx-auto max-w-2xl p-4'>
                     <img src={Banner} alt=""/>
                 </div>
             </div>

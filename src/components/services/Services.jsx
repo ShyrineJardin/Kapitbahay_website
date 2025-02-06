@@ -15,7 +15,11 @@ const Services = () => {
       <h2 className='flex justify-center py-15'>Services</h2>
         <div className='container flex justify-center items-center py-10'>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 space-x-5 space-y-5'>
+            <div 
+            data-aos='fade-up'
+            data-aos-duration='400'
+            data-aos-once= 'true'
+            className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 space-x-5 space-y-5'>
               {/* services */}
               <div className='flex flex-col items-center text-center'>
                 <img src={Errand} alt="" className='bg-main p-5 rounded-full h-40 w-40 mb-2 shadow-lg'/>

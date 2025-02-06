@@ -5,7 +5,11 @@ import Mission_img from '../../assets/images/section.png';
 const About = ({ reverse, img }) => {
     return (
         <section className='text-black dark:text-white bg-white dark:bg-gray-900'>
-            <div className='container flex flex-col items-center justify-center py-10  md:h-[500px]'>
+            <div 
+            data-aos='fade-right'
+            data-aos-duration='400'
+            data-aos-once= 'true'
+            className='container flex flex-col items-center justify-center py-10  md:h-[500px]'>
                 <div className='grid grid-cols-1 items-center gap-4 md:grid-cols-2'>
                     <div>
                         <h2 className='py-5'>Birth of Kapitbahay</h2>
@@ -22,7 +26,11 @@ const About = ({ reverse, img }) => {
             </div>
 
 
-            <div className='container flex flex-col items-center justify-center py-10  md:h-[500px]'>
+            <div
+            data-aos='fade-left'
+            data-aos-duration='400'
+            data-aos-once= 'true'
+            className='container flex flex-col items-center justify-center py-10  md:h-[500px]'>
                 <div className='grid grid-cols-1 items-center gap-4 md:grid-cols-2'>
                     <div className='flex align-middle justify-center'>
                         <img src={Mission_img} alt="" className='mx-auto max-w-full hidden md:block' />

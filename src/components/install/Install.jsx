@@ -7,7 +7,11 @@ const Install = () => {
   return (
         <section className=' bg-white dark:bg-gray-900 text-black dark:text-white'>            
             <div className='container items-center justify-between'>
-            <div className='grid grid-cols-1 md:grid-cols-2 dark:text-white  pt-20 pb-20'>
+                <div 
+                data-aos='fade-down'
+                data-aos-duration='400'
+                data-aos-once= 'true'
+                className='grid grid-cols-1 md:grid-cols-2 dark:text-white  pt-20 pb-20'>
                             <div className='flex flex-col items-center text-center gap-4 md:items-start md:text-left'>
                                 <h2 className='mb-5'>Halina't Maging KapitBuddy</h2>
                                 <p> Join our KapitBuddy community today! Earn extra income by helping neighbors with daily tasks—whether it’s running errands, home services, or event assistance. Work on your own schedule, connect with your community, and make a difference. Sign up now and start lending a hand! 🤝✨</p>
