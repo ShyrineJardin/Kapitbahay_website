@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner from '../../assets/images/front.png';
 import GooglePlay from '../../assets/images/google-play.png'
+import Map from '../../assets/images/Map.jpg'
 
 const Hero = () => {
   return (
@@ -28,12 +29,24 @@ const Hero = () => {
 
                 </div>
 
-                <div
+                <div 
                 data-aos='fade-left'
                 data-aos-duration='400'
-                data-aos-once= 'true'
-                 className='mx-auto max-w-2xl p-4'>
-                    <img src={Banner} alt=""/>
+                data-aos-once='true'
+                className='relative mx-auto max-w-2xl p-4 rounded-full overflow-hidden'>
+                    {/* Background Image */}
+                    <div 
+                        className="absolute inset-0 rounded-full"
+                        style={{ 
+                            backgroundImage: `url(${Map})`, 
+                            backgroundSize: 'cover', 
+                            backgroundPosition: 'center',
+                            opacity: 0.3
+                        }}>
+                    </div>
+
+                    {/* Foreground Image */}
+                    <img src={Banner} alt="" className="relative rounded-full" />
                 </div>
             </div>
         </section>

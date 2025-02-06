@@ -1,5 +1,5 @@
 import React from 'react'
-import Kapitbuddy from '../../assets/images/kapitbuddy.png'
+import Kapitbuddy from '../../assets/images/install.png'
 import GooglePlay from '../../assets/images/google-play.png'
 
 
