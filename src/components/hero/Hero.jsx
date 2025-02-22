@@ -5,7 +5,7 @@ import Map from '../../assets/images/Map.jpg'
 
 const Hero = () => {
   return (
-    <div className='h-[650px] pt-15 md:h-[500px] bg-white dark:bg-gray-900'>
+    <div className='h-[650px] pt-15 md:h-[500px] bg-white dark:bg-gray-900 mb-5'>
         <section className='container flex flex-col items-center justify-between'>
             <div className='grid grid-cols-1 md:grid-cols-2 dark:text-white  pt-20'>
                 <div 
@@ -15,7 +15,7 @@ const Hero = () => {
                 className='flex flex-col items-center text-center gap-4 md:items-start md:text-left'>
                     <h2>Need a Helping Hand? Connect with Trusted Locals for Your Daily Tasks</h2>
 
-                    <div className='bg-black dark:bg-white dark:text-black text-white p-2 rounded-lg mt-5 cursor-pointer'>
+                    <div className='bg-black dark:bg-white dark:text-black text-white p-2 rounded-lg mt-5 cursor-pointer mb-7'>
                         <button>
                             <div className='flex flex-row gap-3 items-center'>
                                 <img src={GooglePlay} alt="" className='w-8 h-8' />
