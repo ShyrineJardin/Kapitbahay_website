@@ -5,8 +5,8 @@ import Map from '../../assets/images/Map.jpg'
 
 const Hero = () => {
   return (
-    <div className='h-[650px] pt-15 md:h-[500px] bg-white dark:bg-gray-900'>
-        <section className='container flex flex-col items-center justify-between'>
+    <div className='h-[650px] pt-15 md:h-[500px] bg-white dark:bg-gray-900 mb-3 md:mb-0 xl:mb-10'>
+        <section className='container flex flex-col items-center justify-between '>
             <div className='grid grid-cols-1 md:grid-cols-2 dark:text-white  pt-20'>
                 <div 
                 data-aos='fade-right'
@@ -46,7 +46,7 @@ const Hero = () => {
                     </div>
 
                     {/* Foreground Image */}
-                    <img src={Banner} alt="" className="relative rounded-full" />
+                    <img src={Banner} alt="" className="relative rounded-full " />
                 </div>
             </div>
         </section>
