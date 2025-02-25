@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <>
     <header className='fixed right-0 left-0 top-0 z-[99] bg-white border-b-[2px] dark:bg-gray-900 dark:text-white'>
-      <nav className='container flex items-center justify-between h-[70px] py-3'>
+      <nav className='container flex items-center justify-between h-[70px] py-3 cursor-pointer'>
         {/*Logo section*/}
         <div>
           <img src={Logo} alt="Kapitbahay Logo" className='w-20 h-20' />
